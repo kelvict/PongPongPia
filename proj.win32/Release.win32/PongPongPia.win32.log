@@ -1,0 +1,177 @@
+﻿生成启动时间为 2014/3/31 17:48:11。
+     1>项目“I:\系统分析与设计\cocos2d-2.0-x-2.0.4\samples\PongPongPia\proj.win32\PongPongPia.win32.vcxproj”在节点 5 上(rebuild 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release.win32\PongPongPia.win32.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I..\Classes /I"I:\系统分析与设计\cocos2d-2.0-x-2.0.4\cocos2dx" /I"I:\系统分析与设计\cocos2d-2.0-x-2.0.4\cocos2dx\include" /I"I:\系统分析与设计\cocos2d-2.0-x-2.0.4\cocos2dx\kazmath\include" /I"I:\系统分析与设计\cocos2d-2.0-x-2.0.4\cocos2dx\platform\win32" /I"I:\系统分析与设计\cocos2d-2.0-x-2.0.4\cocos2dx\platform\third_party\win32" /I"I:\系统分析与设计\cocos2d-2.0-x-2.0.4\cocos2dx\platform\third_party\win32\OGLES" /I"I:\系统分析与设计\cocos2d-2.0-x-2.0.4\external" /I"I:\系统分析与设计\cocos2d-2.0-x-2.0.4\CocosDenshion\include" /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGSNDEBUG /D _UNICODE /D UNICODE /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release.win32\\" /Fd"Release.win32\vc100.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\..\..\external\JsonBox\src\Array.cpp ..\..\..\external\JsonBox\src\Convert.cpp ..\..\..\external\JsonBox\src\Escaper.cpp ..\..\..\external\JsonBox\src\IndentCanceller.cpp ..\..\..\external\JsonBox\src\Indenter.cpp ..\..\..\external\JsonBox\src\Object.cpp ..\..\..\external\JsonBox\src\SolidusEscaper.cpp ..\..\..\external\JsonBox\src\Value.cpp ..\Classes\AppDelegate.cpp AccelerationLayer.cpp BackgroundLayer.cpp BackHomeRorContinueLayer.cpp ChallengeScene.cpp ChallengeUserLayer.cpp ChooseChapterScene.cpp ChooseRoundScene.cpp ChooseToUseLayer.cpp ComputerRole.cpp CurlUtils.cpp Equipment.cpp GameScene.cpp GuideBackgroundStoryLayer.cpp HRocker.cpp ItemListLayer.cpp Language.cpp LogIntoLayer.cpp LoseLayer.cpp main.cpp MenuLayer.cpp PanelLayer.cpp PersonalAudioEngine.cpp personalInfoLayer.cpp PongPongPiaData.cpp PopWindowsLayer.cpp ProgressBar.cpp Prop.cpp RegisterLayer.cpp ResultLayer.cpp Reward.cpp Role.cpp RoleLayer.cpp SettingLayer.cpp Skill.cpp SocialShareWin32.cpp StartScene.cpp StaticData.cpp StoryboardLayer.cpp StoryboardManager.cpp Swamp.cpp TipsLayer.cpp UserData.cpp Utils.cpp ViewDataLayer.cpp ViewEquipmentLayer.cpp ViewProperyLayer.cpp Wind.cpp WinLayer.cpp XmlParse.cpp
+         Array.cpp
+     1>..\..\..\external\JsonBox\src\Array.cpp(1): fatal error C1083: 无法打开包括文件:“JsonBox/Array.h”: No such file or directory
+         Convert.cpp
+     1>..\..\..\external\JsonBox\src\Convert.cpp(1): fatal error C1083: 无法打开包括文件:“JsonBox/Convert.h”: No such file or directory
+         Escaper.cpp
+     1>..\..\..\external\JsonBox\src\Escaper.cpp(1): fatal error C1083: 无法打开包括文件:“JsonBox/Escaper.h”: No such file or directory
+         IndentCanceller.cpp
+     1>..\..\..\external\JsonBox\src\IndentCanceller.cpp(1): fatal error C1083: 无法打开包括文件:“JsonBox/IndentCanceller.h”: No such file or directory
+         Indenter.cpp
+     1>..\..\..\external\JsonBox\src\Indenter.cpp(1): fatal error C1083: 无法打开包括文件:“JsonBox/Indenter.h”: No such file or directory
+         Object.cpp
+     1>..\..\..\external\JsonBox\src\Object.cpp(1): fatal error C1083: 无法打开包括文件:“JsonBox/Object.h”: No such file or directory
+         SolidusEscaper.cpp
+     1>..\..\..\external\JsonBox\src\SolidusEscaper.cpp(1): fatal error C1083: 无法打开包括文件:“JsonBox/SolidusEscaper.h”: No such file or directory
+         Value.cpp
+     1>..\..\..\external\JsonBox\src\Value.cpp(1): fatal error C1083: 无法打开包括文件:“JsonBox/Value.h”: No such file or directory
+         AppDelegate.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>.\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         AccelerationLayer.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>AccelerationLayer.cpp(24): warning C4305: “=”: 从“double”到“float”截断
+     1>AccelerationLayer.cpp(32): warning C4305: “=”: 从“double”到“float”截断
+         BackgroundLayer.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         BackHomeRorContinueLayer.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>.\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         ChallengeScene.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>i:\系统分析与设计\cocos2d-2.0-x-2.0.4\samples\pongpongpia\proj.win32\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         ChallengeUserLayer.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>.\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         ChooseChapterScene.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>i:\系统分析与设计\cocos2d-2.0-x-2.0.4\samples\pongpongpia\proj.win32\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         ChooseRoundScene.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>i:\系统分析与设计\cocos2d-2.0-x-2.0.4\samples\pongpongpia\proj.win32\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         ChooseToUseLayer.cpp
+     1>ChooseToUseLayer.cpp(1): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>i:\系统分析与设计\cocos2d-2.0-x-2.0.4\samples\pongpongpia\proj.win32\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         ComputerRole.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         CurlUtils.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         Equipment.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         正在生成代码...
+     1>i:\系统分析与设计\cocos2d-2.0-x-2.0.4\samples\pongpongpia\proj.win32\curlutils.cpp(33): warning C4715: “CurlUtils::useGet”: 不是所有的控件路径都返回值
+         正在编译...
+         GameScene.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>.\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         GuideBackgroundStoryLayer.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>.\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         HRocker.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>HRocker.cpp(74): warning C4996: 'cocos2d::CCTouch::locationInView': 被声明为已否决
+                 I:\系统分析与设计\cocos2d-2.0-x-2.0.4\cocos2dx\touch_dispatcher/CCTouch.h(60) : 参见“cocos2d::CCTouch::locationInView”的声明
+     1>HRocker.cpp(92): warning C4996: 'cocos2d::CCTouch::locationInView': 被声明为已否决
+                 I:\系统分析与设计\cocos2d-2.0-x-2.0.4\cocos2dx\touch_dispatcher/CCTouch.h(60) : 参见“cocos2d::CCTouch::locationInView”的声明
+         ItemListLayer.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>.\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         Language.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         LogIntoLayer.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>i:\系统分析与设计\cocos2d-2.0-x-2.0.4\samples\pongpongpia\proj.win32\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         LoseLayer.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>.\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         main.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         MenuLayer.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>.\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         PanelLayer.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>.\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         PersonalAudioEngine.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         personalInfoLayer.cpp
+     1>personalInfoLayer.cpp(2): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>i:\系统分析与设计\cocos2d-2.0-x-2.0.4\samples\pongpongpia\proj.win32\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         PongPongPiaData.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         PopWindowsLayer.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>i:\系统分析与设计\cocos2d-2.0-x-2.0.4\samples\pongpongpia\proj.win32\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         ProgressBar.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>.\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         Prop.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>.\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         RegisterLayer.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>i:\系统分析与设计\cocos2d-2.0-x-2.0.4\samples\pongpongpia\proj.win32\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         ResultLayer.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>.\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         Reward.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         Role.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         正在生成代码...
+         正在编译...
+         RoleLayer.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>.\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         SettingLayer.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>i:\系统分析与设计\cocos2d-2.0-x-2.0.4\samples\pongpongpia\proj.win32\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         Skill.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         SocialShareWin32.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         StartScene.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>i:\系统分析与设计\cocos2d-2.0-x-2.0.4\samples\pongpongpia\proj.win32\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         StaticData.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         StoryboardLayer.cpp
+     1>StoryboardLayer.cpp(1): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>.\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         StoryboardManager.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>.\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         Swamp.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         TipsLayer.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>i:\系统分析与设计\cocos2d-2.0-x-2.0.4\samples\pongpongpia\proj.win32\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         UserData.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>UserData.cpp(6): fatal error C1083: 无法打开包括文件:“JsonBox.h”: No such file or directory
+         Utils.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         ViewDataLayer.cpp
+     1>ViewDataLayer.cpp(2): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>i:\系统分析与设计\cocos2d-2.0-x-2.0.4\samples\pongpongpia\proj.win32\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         ViewEquipmentLayer.cpp
+     1>ViewEquipmentLayer.cpp(1): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>i:\系统分析与设计\cocos2d-2.0-x-2.0.4\samples\pongpongpia\proj.win32\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         ViewProperyLayer.cpp
+     1>ViewProperyLayer.cpp(1): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>i:\系统分析与设计\cocos2d-2.0-x-2.0.4\samples\pongpongpia\proj.win32\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         Wind.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         WinLayer.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>.\StartScene.h(5): fatal error C1083: 无法打开包括文件:“cocos-ext.h”: No such file or directory
+         XmlParse.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>i:\系统分析与设计\cocos2d-2.0-x-2.0.4\samples\pongpongpia\proj.win32\XmlParse.h(5): fatal error C1083: 无法打开包括文件:“CCSAXParser.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“I:\系统分析与设计\cocos2d-2.0-x-2.0.4\samples\PongPongPia\proj.win32\PongPongPia.win32.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:01:53.68

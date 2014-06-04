@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dict>
+	<key>Sound_On</key>
+	<string>音乐开</string>
+	<key>STR</key>
+	<string>力量</string>
+	<key>AGI</key>
+	<string>速度</string>
+	<key>DEF</key>
+	<string>防御</string>
+	<key>exp</key>
+	<string>经验</string>
+	<key>honor</key>
+	<string>荣誉值</string>
+	<key>money</key>
+	<string>金币</string>
+	<key>not_login</key>
+	<string>未登陆</string>
+</dict>

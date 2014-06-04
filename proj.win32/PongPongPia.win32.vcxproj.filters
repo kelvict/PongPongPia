@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{2fbded23-d635-4488-b1b8-2d04ae67eefb}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{44edcd47-7e0b-4e53-8e1e-e006b6bc049e}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{2499e338-87d8-43cc-aab1-09f6c971388b}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+    <Filter Include="include\JsonBox">
+      <UniqueIdentifier>{b9dade5b-2293-4a0c-b50e-565c533b0b61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\JsonBox">
+      <UniqueIdentifier>{630161b4-5cc7-4f57-9a3e-28e7ffd416f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\PongPongPia.ico">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PongPongPia.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BackgroundLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputerRole.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="PanelLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonalAudioEngine.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="PongPongPiaData.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Prop.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Role.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="RoleLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticData.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="HRocker.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="ChooseChapterScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="ChooseRoundScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressBar.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="UserData.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="PopWindowsLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="AccelerationLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Reward.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="ChallengeScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="ChallengeUserLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LogIntoLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="TipsLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="CurlUtils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlParse.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\external\JsonBox\include\JsonBox\Array.h">
+      <Filter>include\JsonBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\external\JsonBox\include\JsonBox\Convert.h">
+      <Filter>include\JsonBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\external\JsonBox\include\JsonBox\Escaper.h">
+      <Filter>include\JsonBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\external\JsonBox\include\JsonBox\Grammar.h">
+      <Filter>include\JsonBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\external\JsonBox\include\JsonBox\IndentCanceller.h">
+      <Filter>include\JsonBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\external\JsonBox\include\JsonBox\Indenter.h">
+      <Filter>include\JsonBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\external\JsonBox\include\JsonBox\Object.h">
+      <Filter>include\JsonBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\external\JsonBox\include\JsonBox\OutputFilter.h">
+      <Filter>include\JsonBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\external\JsonBox\include\JsonBox\SolidusEscaper.h">
+      <Filter>include\JsonBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\external\JsonBox\include\JsonBox\Value.h">
+      <Filter>include\JsonBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\external\JsonBox\include\JsonBox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemListLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Swamp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LoseLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="ChooseToUseLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonalInfoLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewDataLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewEquipmentLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewProperyLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Wind.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="SocialShare.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryboardLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryboardManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GuideBackgroundStoryLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="BackHomeRorContinueLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Pastor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Devil.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Boat.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BackgroundLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputerRole.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Equipment.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="PanelLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonalAudioEngine.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="PongPongPiaData.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Prop.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="RoleLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticData.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Role.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="HRocker.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="ChooseChapterScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="ChooseRoundScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressBar.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="UserData.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="PopWindowsLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="AccelerationLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Reward.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="ChallengeScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="ChallengeUserLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LogIntoLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="TipsLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="CurlUtils.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlParse.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\external\JsonBox\src\Array.cpp">
+      <Filter>source\JsonBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\external\JsonBox\src\Convert.cpp">
+      <Filter>source\JsonBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\external\JsonBox\src\Escaper.cpp">
+      <Filter>source\JsonBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\external\JsonBox\src\IndentCanceller.cpp">
+      <Filter>source\JsonBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\external\JsonBox\src\Indenter.cpp">
+      <Filter>source\JsonBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\external\JsonBox\src\Object.cpp">
+      <Filter>source\JsonBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\external\JsonBox\src\SolidusEscaper.cpp">
+      <Filter>source\JsonBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\external\JsonBox\src\Value.cpp">
+      <Filter>source\JsonBox</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemListLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Language.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="ChooseToUseLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="personalInfoLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewDataLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewEquipmentLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewProperyLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Wind.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Swamp.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LoseLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="SocialShareWin32.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryboardLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryboardManager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GuideBackgroundStoryLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="BackHomeRorContinueLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

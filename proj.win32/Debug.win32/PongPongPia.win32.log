@@ -1,0 +1,89 @@
+﻿生成启动时间为 2013/12/22 16:14:10。
+     1>项目“F:\cocos2d-x\cocos2d-2.0-x-2.0.4\samples\PongPongPia\proj.win32\PongPongPia.win32.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug.win32\PongPongPia.win32.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         F:\visual studio 2010\setFile\VC\bin\CL.exe /c /I. /I..\Classes /I"F:\cocos2d-x\cocos2d-2.0-x-2.0.4\cocos2dx\cocoa" /I"F:\cocos2d-x\cocos2d-2.0-x-2.0.4\cocos2dx\platform" /I"F:\cocos2d-x\cocos2d-2.0-x-2.0.4\cocos2dx" /I"F:\cocos2d-x\cocos2d-2.0-x-2.0.4\cocos2dx\include" /I"F:\cocos2d-x\cocos2d-2.0-x-2.0.4\cocos2dx\kazmath\include" /I"F:\cocos2d-x\cocos2d-2.0-x-2.0.4\cocos2dx\platform\win32" /I"F:\cocos2d-x\cocos2d-2.0-x-2.0.4\cocos2dx\platform\third_party\win32" /I"F:\cocos2d-x\cocos2d-2.0-x-2.0.4\cocos2dx\platform\third_party\win32\OGLES" /I"F:\cocos2d-x\cocos2d-2.0-x-2.0.4\external" /I"F:\cocos2d-x\cocos2d-2.0-x-2.0.4\CocosDenshion\include" /I"F:\cocos2d-x\cocos2d-2.0-x-2.0.4\extensions" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS_DEBUG /D COCOS2D_DEBUG=1 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc100.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt BackHomeRorContinueLayer.cpp StoryboardManager.cpp
+         BackHomeRorContinueLayer.cpp
+         正在生成代码...
+         正在跳过...(未检测到相关更改)
+         StoryboardManager.cpp
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         F:\visual studio 2010\setFile\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\cocos2d-x\cocos2d-2.0-x-2.0.4\Debug.win32\PongPongPia.win32.exe" /INCREMENTAL /NOLOGO /LIBPATH:"F:\cocos2d-x\cocos2d-2.0-x-2.0.4\Debug.win32\\" libcocos2d.lib libExtensions.lib opengl32.lib glew32.lib libBox2d.lib libCocosDenshion.lib libcurl_imp.lib pthreadVCE2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug.win32\PongPongPia.win32.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\cocos2d-x\cocos2d-2.0-x-2.0.4\Debug.win32\PongPongPia.win32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\cocos2d-x\cocos2d-2.0-x-2.0.4\Debug.win32\PongPongPia.win32.lib" /MACHINE:X86 Debug.win32\PongPongPia.res
+         Debug.win32\PongPongPia.win32.exe.embed.manifest.res
+         Debug.win32\Array.obj
+         Debug.win32\Convert.obj
+         Debug.win32\Escaper.obj
+         Debug.win32\IndentCanceller.obj
+         Debug.win32\Indenter.obj
+         Debug.win32\Object.obj
+         Debug.win32\SolidusEscaper.obj
+         Debug.win32\Value.obj
+         Debug.win32\AppDelegate.obj
+         Debug.win32\AccelerationLayer.obj
+         Debug.win32\BackgroundLayer.obj
+         Debug.win32\BackHomeRorContinueLayer.obj
+         Debug.win32\ChallengeScene.obj
+         Debug.win32\ChallengeUserLayer.obj
+         Debug.win32\ChooseChapterScene.obj
+         Debug.win32\ChooseRoundScene.obj
+         Debug.win32\ChooseToUseLayer.obj
+         Debug.win32\ComputerRole.obj
+         Debug.win32\CurlUtils.obj
+         Debug.win32\Equipment.obj
+         Debug.win32\GameScene.obj
+         Debug.win32\GuideBackgroundStoryLayer.obj
+         Debug.win32\HRocker.obj
+         Debug.win32\ItemListLayer.obj
+         Debug.win32\Language.obj
+         Debug.win32\LogIntoLayer.obj
+         Debug.win32\LoseLayer.obj
+         Debug.win32\main.obj
+         Debug.win32\MenuLayer.obj
+         Debug.win32\PanelLayer.obj
+         Debug.win32\PersonalAudioEngine.obj
+         Debug.win32\personalInfoLayer.obj
+         Debug.win32\PongPongPiaData.obj
+         Debug.win32\PopWindowsLayer.obj
+         Debug.win32\ProgressBar.obj
+         Debug.win32\Prop.obj
+         Debug.win32\RegisterLayer.obj
+         Debug.win32\ResultLayer.obj
+         Debug.win32\Reward.obj
+         Debug.win32\Role.obj
+         Debug.win32\RoleLayer.obj
+         Debug.win32\SettingLayer.obj
+         Debug.win32\Skill.obj
+         Debug.win32\SocialShareWin32.obj
+         Debug.win32\StartScene.obj
+         Debug.win32\StaticData.obj
+         Debug.win32\StoryboardLayer.obj
+         Debug.win32\StoryboardManager.obj
+         Debug.win32\Swamp.obj
+         Debug.win32\TipsLayer.obj
+         Debug.win32\UserData.obj
+         Debug.win32\Utils.obj
+         Debug.win32\ViewDataLayer.obj
+         Debug.win32\ViewEquipmentLayer.obj
+         Debug.win32\ViewProperyLayer.obj
+         Debug.win32\Wind.obj
+         Debug.win32\WinLayer.obj
+         Debug.win32\XmlParse.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug.win32\PongPongPia.win32.exe.embed.manifest" /manifest Debug.win32\PongPongPia.win32.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         PongPongPia.win32.vcxproj -> F:\cocos2d-x\cocos2d-2.0-x-2.0.4\Debug.win32\PongPongPia.win32.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug.win32\PongPongPia.win32.unsuccessfulbuild”。
+         正在对“Debug.win32\PongPongPia.win32.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\cocos2d-x\cocos2d-2.0-x-2.0.4\samples\PongPongPia\proj.win32\PongPongPia.win32.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.42

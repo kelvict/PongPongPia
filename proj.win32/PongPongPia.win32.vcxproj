@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2B93E455-07BE-4704-B76A-5D45A98541CA}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)external\JsonBox\include;$(IncludePath)</IncludePath>
+    <SourcePath>$(SolutionDir)external\JsonBox\src;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;..\Classes;$(SolutionDir)cocos2dx\cocoa;$(SolutionDir)cocos2dx\platform;$(SolutionDir)cocos2dx;$(SolutionDir)cocos2dx\include;$(SolutionDir)cocos2dx\kazmath\include;$(SolutionDir)cocos2dx\platform\win32;$(SolutionDir)cocos2dx\platform\third_party\win32;$(SolutionDir)cocos2dx\platform\third_party\win32\OGLES;$(SolutionDir)external;$(SolutionDir)CocosDenshion\include;$(SolutionDir)extensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS_DEBUG;COCOS2D_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcocos2d.lib;libExtensions.lib;opengl32.lib;glew32.lib;libBox2d.lib;libCocosDenshion.lib;libcurl_imp.lib;pthreadVCE2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>PongPongPia.h</HeaderFileName>
+      <InterfaceIdentifierFileName>PongPongPia_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>PongPongPia_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/PongPongPia.tlb</TypeLibraryName>
+      <DllDataFileName>
+      </DllDataFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;..\Classes;$(SolutionDir)cocos2dx;$(SolutionDir)cocos2dx\include;$(SolutionDir)cocos2dx\kazmath\include;$(SolutionDir)cocos2dx\platform\win32;$(SolutionDir)cocos2dx\platform\third_party\win32;$(SolutionDir)cocos2dx\platform\third_party\win32\OGLES;$(SolutionDir)external;$(SolutionDir)CocosDenshion\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGSNDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcocos2d.lib;libExtensions.lib;opengl32.lib;glew32.lib;libBox2d.lib;libCocosDenshion.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>PongPongPia.h</HeaderFileName>
+      <InterfaceIdentifierFileName>PongPongPia_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>PongPongPia_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/PongPongPia.tlb</TypeLibraryName>
+      <DllDataFileName>
+      </DllDataFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\Resources\CloseNormal.png" />
+    <None Include="..\Resources\CloseSelected.png" />
+    <None Include="..\Resources\HelloWorld.png" />
+    <None Include="res\PongPongPia.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PongPongPia.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\external\JsonBox\include\JsonBox.h" />
+    <ClInclude Include="..\..\..\external\JsonBox\include\JsonBox\Array.h" />
+    <ClInclude Include="..\..\..\external\JsonBox\include\JsonBox\Convert.h" />
+    <ClInclude Include="..\..\..\external\JsonBox\include\JsonBox\Escaper.h" />
+    <ClInclude Include="..\..\..\external\JsonBox\include\JsonBox\Grammar.h" />
+    <ClInclude Include="..\..\..\external\JsonBox\include\JsonBox\IndentCanceller.h" />
+    <ClInclude Include="..\..\..\external\JsonBox\include\JsonBox\Indenter.h" />
+    <ClInclude Include="..\..\..\external\JsonBox\include\JsonBox\Object.h" />
+    <ClInclude Include="..\..\..\external\JsonBox\include\JsonBox\OutputFilter.h" />
+    <ClInclude Include="..\..\..\external\JsonBox\include\JsonBox\SolidusEscaper.h" />
+    <ClInclude Include="..\..\..\external\JsonBox\include\JsonBox\Value.h" />
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="AccelerationLayer.h" />
+    <ClInclude Include="BackgroundLayer.h" />
+    <ClInclude Include="BackHomeRorContinueLayer.h" />
+    <ClInclude Include="Boat.h" />
+    <ClInclude Include="ChallengeScene.h" />
+    <ClInclude Include="ChallengeUserLayer.h" />
+    <ClInclude Include="ChooseChapterScene.h" />
+    <ClInclude Include="ChooseRoundScene.h" />
+    <ClInclude Include="ChooseToUseLayer.h" />
+    <ClInclude Include="ComputerRole.h" />
+    <ClInclude Include="CurlUtils.h" />
+    <ClInclude Include="Devil.h" />
+    <ClInclude Include="Equipment.h" />
+    <ClInclude Include="GameScene.h" />
+    <ClInclude Include="GuideBackgroundStoryLayer.h" />
+    <ClInclude Include="HRocker.h" />
+    <ClInclude Include="ItemListLayer.h" />
+    <ClInclude Include="LogIntoLayer.h" />
+    <ClInclude Include="LoseLayer.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="MenuLayer.h" />
+    <ClInclude Include="PanelLayer.h" />
+    <ClInclude Include="Pastor.h" />
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="PersonalAudioEngine.h" />
+    <ClInclude Include="PersonalInfoLayer.h" />
+    <ClInclude Include="PongPongPiaData.h" />
+    <ClInclude Include="PopWindowsLayer.h" />
+    <ClInclude Include="ProgressBar.h" />
+    <ClInclude Include="Prop.h" />
+    <ClInclude Include="RegisterLayer.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ResultLayer.h" />
+    <ClInclude Include="Reward.h" />
+    <ClInclude Include="Role.h" />
+    <ClInclude Include="RoleLayer.h" />
+    <ClInclude Include="SettingLayer.h" />
+    <ClInclude Include="Skill.h" />
+    <ClInclude Include="SocialShare.h" />
+    <ClInclude Include="StartScene.h" />
+    <ClInclude Include="StaticData.h" />
+    <ClInclude Include="StoryboardLayer.h" />
+    <ClInclude Include="StoryboardManager.h" />
+    <ClInclude Include="Swamp.h" />
+    <ClInclude Include="TipsLayer.h" />
+    <ClInclude Include="UserData.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="ViewDataLayer.h" />
+    <ClInclude Include="ViewEquipmentLayer.h" />
+    <ClInclude Include="ViewProperyLayer.h" />
+    <ClInclude Include="Wind.h" />
+    <ClInclude Include="WinLayer.h" />
+    <ClInclude Include="XmlParse.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\external\JsonBox\src\Array.cpp" />
+    <ClCompile Include="..\..\..\external\JsonBox\src\Convert.cpp" />
+    <ClCompile Include="..\..\..\external\JsonBox\src\Escaper.cpp" />
+    <ClCompile Include="..\..\..\external\JsonBox\src\IndentCanceller.cpp" />
+    <ClCompile Include="..\..\..\external\JsonBox\src\Indenter.cpp" />
+    <ClCompile Include="..\..\..\external\JsonBox\src\Object.cpp" />
+    <ClCompile Include="..\..\..\external\JsonBox\src\SolidusEscaper.cpp" />
+    <ClCompile Include="..\..\..\external\JsonBox\src\Value.cpp" />
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="AccelerationLayer.cpp" />
+    <ClCompile Include="BackgroundLayer.cpp" />
+    <ClCompile Include="BackHomeRorContinueLayer.cpp" />
+    <ClCompile Include="ChallengeScene.cpp" />
+    <ClCompile Include="ChallengeUserLayer.cpp" />
+    <ClCompile Include="ChooseChapterScene.cpp" />
+    <ClCompile Include="ChooseRoundScene.cpp" />
+    <ClCompile Include="ChooseToUseLayer.cpp" />
+    <ClCompile Include="ComputerRole.cpp" />
+    <ClCompile Include="CurlUtils.cpp" />
+    <ClCompile Include="Equipment.cpp" />
+    <ClCompile Include="GameScene.cpp" />
+    <ClCompile Include="GuideBackgroundStoryLayer.cpp" />
+    <ClCompile Include="HRocker.cpp" />
+    <ClCompile Include="ItemListLayer.cpp" />
+    <ClCompile Include="Language.cpp" />
+    <ClCompile Include="LogIntoLayer.cpp" />
+    <ClCompile Include="LoseLayer.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MenuLayer.cpp" />
+    <ClCompile Include="PanelLayer.cpp" />
+    <ClCompile Include="PersonalAudioEngine.cpp" />
+    <ClCompile Include="personalInfoLayer.cpp" />
+    <ClCompile Include="PongPongPiaData.cpp" />
+    <ClCompile Include="PopWindowsLayer.cpp" />
+    <ClCompile Include="ProgressBar.cpp" />
+    <ClCompile Include="Prop.cpp" />
+    <ClCompile Include="RegisterLayer.cpp" />
+    <ClCompile Include="ResultLayer.cpp" />
+    <ClCompile Include="Reward.cpp" />
+    <ClCompile Include="Role.cpp" />
+    <ClCompile Include="RoleLayer.cpp" />
+    <ClCompile Include="SettingLayer.cpp" />
+    <ClCompile Include="Skill.cpp" />
+    <ClCompile Include="SocialShareWin32.cpp" />
+    <ClCompile Include="StartScene.cpp" />
+    <ClCompile Include="StaticData.cpp" />
+    <ClCompile Include="StoryboardLayer.cpp" />
+    <ClCompile Include="StoryboardManager.cpp" />
+    <ClCompile Include="Swamp.cpp" />
+    <ClCompile Include="TipsLayer.cpp" />
+    <ClCompile Include="UserData.cpp" />
+    <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="ViewDataLayer.cpp" />
+    <ClCompile Include="ViewEquipmentLayer.cpp" />
+    <ClCompile Include="ViewProperyLayer.cpp" />
+    <ClCompile Include="Wind.cpp" />
+    <ClCompile Include="WinLayer.cpp" />
+    <ClCompile Include="XmlParse.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
